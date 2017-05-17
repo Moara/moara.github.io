@@ -41,20 +41,51 @@
 *{
 	font-family: 'rr';
 }
-.space{
-	height: 50px;
-	/*background-color: red;*/
+.line{
+	background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    height: 3px;
+    margin-bottom: 50px;
 }
 .nav li a {
     color: #959cad;
     box-sizing: border-box;
     font-family: 'rr';
-    /*text-transform: uppercase;*/
+    font-size: 18px;
 }
 .navbar-default {
     background-color: transparent;
     border: none;
 }
 .logo{
-
+	text-transform: uppercase;
+	font-family: 'rm';
+	font-size: 35px;
+	color: #3C4151!important;
+	font-weight: bold;
+}
+.page-header{
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    height: 150px;
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-family: 'rb';
+}
+p{
+    color: #159957;
+    font-size: 16px;
+}
+span{
+	font-size: 14px;
+	line-height: 1.5;
+	color: #606c71;
+}
+.padding{
+	padding-left: 40px;
+}
+.bolinha{
+	color: #2ecc71;
 }
