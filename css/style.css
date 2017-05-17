@@ -89,3 +89,15 @@ span{
 .bolinha{
 	color: #2ecc71;
 }
+.right{
+	text-align: right;
+}
+.center{
+	text-align: center;
+}
+.left{
+	text-align: left;
+}
+.aulas{
+	font-size: 20px;
+}
