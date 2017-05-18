@@ -73,6 +73,9 @@
     padding-top: 35px;
     text-transform: uppercase;
     font-family: 'rb';
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(168,165,168,1);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(168,165,168,1);
+	box-shadow: 0px 2px 5px 0px rgba(168,165,168,1);
 }
 p{
     color: #159957;
@@ -100,4 +103,38 @@ span{
 }
 .aulas{
 	font-size: 20px;
+}
+.margin{
+	margin: 40px 0px;
+}
+footer{
+    /*position: absolute;*/
+    bottom: 0px;
+    width: 100%;
+	margin-top: 20px;
+    /*margin-bottom: 20px;*/
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.footer{
+	padding-top: 40px;
+}
+.text-center{
+	text-align: center;
+}
+.text-center p{
+	font-size: 14px;
+    line-height: 1.5;
+    color: #606c71;
+}
+.text-center p a img{
+	text-align: center;
+	margin: 0 auto;
+}
+.text-center p img{
+	text-align: center;
+	margin: 0 auto;
+}
+.height{
+    min-height: 200px;
 }
